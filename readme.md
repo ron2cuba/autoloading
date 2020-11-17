@@ -33,7 +33,7 @@ Et dans `index.php` :
  */
 spl_autoload_register(function($className){
 
-    //!\tips: var_dump($className) dans la fonction vide pour se rendre compte de ce qui est attendu par spl_autolodd /!\
+    //!\tips: var_dump($className) dans la fonction vide pour se rendre compte de ce qui est attendu par spl_autoload /!\
 
     //on modifie App par le nom de dossier classes
     $className = str_replace("App", "classes", $className);
