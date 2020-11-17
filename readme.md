@@ -72,3 +72,8 @@ Cela nous permet de supprimmer notre `spl_autoload_register` dans `index.php` et
 composer dump-autoload
 ```
 et de supprimer `spl_autoload_register`.
+Il faudra dans le `index.php` faire le :
+```php
+require "vendor/autoload.php";
+```
+
