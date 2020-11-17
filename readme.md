@@ -62,7 +62,7 @@ Ajouter la clé autoload avec la politique `psr-4`
     "require": {},
     "autoload": {
         "psr-4":{
-            "App\\": "classes"
+            "App\\": "classes/"
         }
     }
 }
