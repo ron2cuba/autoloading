@@ -1,6 +1,6 @@
-# revision de l'autoloading
+# L'autoloading
 
-Imaginons cete arborescence:
+Imaginons cette arborescence:
 ```
 projet
     |
