@@ -56,7 +56,7 @@ simplifier avec
 ```bash
 composer init -n
 ```
-Ajouter la clé autoload ave la politique `psr-4`
+Ajouter la clé autoload avec la politique `psr-4`
 ```json
 {
     "require": {},
